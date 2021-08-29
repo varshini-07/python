@@ -13,4 +13,15 @@ for i in range(1,num+1):
     fact=fact*i
 print(f"factorial of {num} is",fact)    
 
+#using function
+num=int(input("enter the number: "))
+def factorial(num):
+    fact=1
+    for i in range(1,num+1):
+        fact=fact*i
+    return fact
+r=factorial(num)   
+print(f"factorial of {num} is",r)    
+
+
 
