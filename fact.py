@@ -14,13 +14,4 @@ for i in range(1,num+1):
 print(f"factorial of {num} is",fact)    
 
 
-# Second prgm.
-# main, using function
 
-#main()
-#input n 
-#x=fact(n)
-#print x
-
-# third prgm.
-#1/fact(1)
