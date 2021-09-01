@@ -11,3 +11,12 @@ print("descending order: ",basket)
 basket.sort(reverse=True)
 print(basket)
 
+#remove the duplicate values and sorted
+basket=[]
+num=int(input("how many numbers: "))
+for i in range(1,num+1):
+    no=int(input("enter the numbers: "))
+    basket.append(no)
+test=list(set(basket))
+test.sort()
+print(test)
